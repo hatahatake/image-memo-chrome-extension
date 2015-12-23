@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "ImageHoge",
+  "version": "0.1",
+  "description": "画像urlをメモします",
+  "background": {
+    "scripts":["storage.js", "context_menu.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions":["clipboardWrite", "contextMenus", "storage"]
+}
